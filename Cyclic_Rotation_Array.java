@@ -3,7 +3,7 @@ public class Cyclic_Rotation_Array
 {
 	static void RightRotate(int a[],int n, int k)
 	{
-		k=k%n; 												//if no. of rotations is greater than an array 
+		k=k%n; 							//if no. of rotations is greater than an array 
 		for(int i = 0; i < n; i++)
 	    {
 	        if(i<k)
